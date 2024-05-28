@@ -13,3 +13,4 @@ The following exercises are designed to support the modules on Microsoft Learn.
 {% for activity in labs  %}
 - [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }})
 {% endfor %}
+     
